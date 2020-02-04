@@ -87,11 +87,7 @@ colorPicker.on(["color:init", "color:change"], function(color){
     "rgb: " + color.rgbString,
     "hsl: " + color.hslString,
   ].join("<br>");
-  values2.innerHTML = [
-    "hex: " + color.hexString,
-    "rgb: " + color.rgbString,
-    "hsl: " + color.hslString,
-  ].join("<br>");
+
   $(".test-bu").css({"background": color.hexString})
   $(".go-bu").css({"background-color": color.hexString})
   $(".dot").css({"background-color": color.hexString})
