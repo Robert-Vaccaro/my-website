@@ -54,5 +54,13 @@
         "tech": "HTML, CSS, JavaScript, JQuery",
         "image": "images/emotion-analysis-main.png",
         "link": "https://robert-vaccaro.github.io/Emotion-Analysis/"
+    }
+    ,
+    {
+        "name": "Vituity Patient Scheduler",
+        "description": "I personally created this program for Vituity Practice Management to speed up the process of entering patient information and scheduling anesthesiologist's to specific hospitals and patients. The average time to enter a days worth of patients and assign doctors to them is roughly 4 hours. With this program, I have reduced the time for scheduling anesthesiologists and entering patient information to 1 hour.",
+        "tech": "Python, tkinter, XlsxWriter, xlrd",
+        "image": "images/py-img.png",
+        "link": "Extra_File.exe"
 	}
 ]

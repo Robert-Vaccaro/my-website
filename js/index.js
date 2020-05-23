@@ -1,4 +1,30 @@
-var work = document.getElementById("portfolioItemContainer");
+function modeChange(mode){
+console.log(mode)
+if (mode === "dark"){
+    console.log("its dark")
+    $("body").css("background","black")
+    $("#heroName").css("color","white")
+    $("#description").css("color","white")
+    $("#profileColumn p").css("color","white")
+    $("div#columns figure").css("-webkit-box-shadow","0px 1px 28px 0px rgba(253,253,253,1)")
+    $("div#columns figure").css("-moz-box-shadow","0px 1px 28px 0px rgba(253,253,253,1)")
+    $("div#columns figure").css("box-shadow","0px 1px 28px 0px rgba(253,253,253,1)")
+    $(".dankicon a:nth-child(2)").css("color","white")
+
+} else {
+    console.log("its light")
+    $("body").css("background","#f5f6fa")
+    $("#heroName").css("color","black")
+    $("#description").css("color","black")
+    $("#profileColumn p").css("color","black")
+    $("div#columns figure").css("-webkit-box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
+    $("div#columns figure").css("-moz-box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
+    $("div#columns figure").css("box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
+    $(".dankicon a:nth-child(2)").css("color","black")
+}
+}
+
+var work = document.getElementById("columns");
 var workRequest = new XMLHttpRequest();
 
 workRequest.open("GET", "json/items.json", true);
@@ -8,7 +34,15 @@ workRequest.onreadystatechange = function () {
             var html = "";
             JSON.parse(workRequest.responseText).forEach(function (work) {
                 console.log(work.name);
-                html += "<div class=\"col s12 m6 l6\"><div class=\"card hoverable\"><div class=\"card-image waves-effect waves-block waves-light\"><img class=\"activator\" src=" + work.image + "></div><div class=\"card-content\"><span class=\"card-title activator grey-text text-darken-4\">" + work.name + "<i class=\"material-icons right\">keyboard_arrow_up</i></span><p><a href=" + work.link + " target=\"_blank\">Visit</a></p></div><div class=\"card-reveal\"><span class=\"card-title grey-text text-darken-4\">" + work.name + "<i class=\"material-icons right\">close</i></span><p>" + work.description + "</p><p> Technologies: <br>"+ work.tech +"</p><p><a href=" + work.link + " target=\"_blank\">Visit</a></p></div></div></div>";
+                html += `<figure>
+                <img src=${work.image}></img>
+                <figcaption class="port-title">${work.name}</figcaption>
+                <figcaption>${work.description}</figcaption>
+                <br>
+                <div class="visit-link">
+                <a href="${work.link}">Visit!</a>
+                </div>
+                </figure>`;
             });
             work.innerHTML = html;
         }
@@ -74,6 +108,7 @@ var colorPicker = new iro.ColorPicker(".colorPicker", {
   color: "rgb(255, 0, 0)",
   borderWidth: 1,
   borderColor: "#fff",
+  display:"inline-block"
 });
 
 var values = document.getElementById("values");
