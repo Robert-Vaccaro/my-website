@@ -11,6 +11,10 @@ if (mode === "dark"){
     $("div#columns figure").css("box-shadow","0px 1px 28px 0px rgba(253,253,253,1)")
     $(".dankicon a:nth-child(2)").css("color","white") 
     $("#portfolioTitle").css("color","white")
+    $("#contactButton").css("border","2px solid white")
+    $("#profileImage").css("-webkit-box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
+    $("#profileImage").css("-moz-box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
+    $("#profileImage").css("box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
 } else {
     console.log("its light")
     $("body").css("background","#f5f6fa")
@@ -22,6 +26,10 @@ if (mode === "dark"){
     $("div#columns figure").css("box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
     $(".dankicon a:nth-child(2)").css("color","black")
     $("#portfolioTitle").css("color","black")
+    $("#contactButton").css("border","2px solid black")
+    $("#profileImage").css("-webkit-box-shadow","0px 1px 28px 0px rgba(0,0,0,0.62)")
+    $("#profileImage").css("-moz-box-shadow","0px 1px 28px 0px rgba(0,0,0,0.62)")
+    $("#profileImage").css("box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
 }
 }
 

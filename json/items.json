@@ -14,7 +14,7 @@
         "link": "https://mighty-shelf-00533.herokuapp.com/"
     },
     {
-        "name": "du-all.com (Under Development)",
+        "name": "Du-All.com",
         "description": "This is website was create for Du-All Safety, who provides safety services to the public and private sectors in California and throughout the United States. Du-All Safety assists businesses with Federal OSHA, CAL/OSHA, and environmental compliance",
         "tech": "Jade, CSS, JavaScript, JQuery, Node.js/Express, MongoDB",
         "image": "images/du-all-image.png",

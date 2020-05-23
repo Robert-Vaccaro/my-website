@@ -51,10 +51,10 @@ body {
 /* Profile Image */
 
 #profileImage {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     margin: auto;
-    margin-top: calc(2%);
+    margin-top: calc(15%);
 }
 
 /* The various Texts */
@@ -75,7 +75,7 @@ body {
     margin-top: 0px;
     margin-bottom: -30px;
     font-weight: 500;
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 
 #firstCategoryText {
@@ -120,8 +120,8 @@ body {
         font-size: 1.1rem;
     }
     #profileImage {
-        height: 125px;
-        width: 125px;
+        height: 225px;
+        width: 225px;
         margin-top: calc(30%);
     }
 }
@@ -131,6 +131,7 @@ body {
         margin-top: calc(10%);
     }
     #portfolioTitle {
+      margin-left:  0px;
         text-align: center;
     }
     #portfolioColumn {
@@ -153,7 +154,7 @@ body {
 
 #contactButton:hover {
     color: white;
-    background-color: black;
+    transform: translate(0px, -7px);
 }
 /* Colors */
 
@@ -208,6 +209,8 @@ body {
 @media(min-width: 993px) {
 
 	#profileColumn {
+    overflow-y: scroll;
+    height: 100vh;
 		position: fixed;
 	}
 
@@ -461,6 +464,8 @@ button {
   }
   .dankicon {
     padding: 0px 10px;
+    width: 100px;
+    height: 100px;
   }
   .dankicon a:nth-child(1) {
     padding:5px;
@@ -610,7 +615,7 @@ button {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    transition: ease .2s;
+    transition: ease .1s;
   }
   
  .main-bu {
