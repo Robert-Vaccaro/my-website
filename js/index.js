@@ -15,6 +15,7 @@ if (mode === "dark"){
     $("#profileImage").css("-webkit-box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
     $("#profileImage").css("-moz-box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
     $("#profileImage").css("box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
+    $(".input-labels-mode").css("color","white")
 } else {
     console.log("its light")
     $("body").css("background","#f5f6fa")
@@ -30,9 +31,28 @@ if (mode === "dark"){
     $("#profileImage").css("-webkit-box-shadow","0px 1px 28px 0px rgba(0,0,0,0.62)")
     $("#profileImage").css("-moz-box-shadow","0px 1px 28px 0px rgba(0,0,0,0.62)")
     $("#profileImage").css("box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
+    $(".input-labels-mode").css("color","black")
 }
 }
-
+function brightnessChange() {
+    console.log("yes")
+    rangeValue = document.getElementById("myRange").value
+    console.log(rangeValue)
+    $(".thumb").css("display",'none')
+    $("body").css("background",`rgba(${rangeValue},${rangeValue},${rangeValue})`)
+    if (rangeValue < 90){
+        modeChange("dark")
+        $(".input-labels-mode").css("color","white")
+        $(".portfolio-header").css("color","white")
+        $("body").css("background",`rgba(${rangeValue},${rangeValue},${rangeValue})`)
+    }
+    if (rangeValue > 180){
+        modeChange("light")
+        $(".input-labels-mode").css("color","black")
+        $(".portfolio-header").css("color","black")
+        $("body").css("background",`rgba(${rangeValue},${rangeValue},${rangeValue})`)
+    }
+}
 var work = document.getElementById("columns");
 var workRequest = new XMLHttpRequest();
 

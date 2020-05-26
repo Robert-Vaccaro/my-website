@@ -210,9 +210,14 @@
                 <h4 id="description" class="center-align">Software Developer</h4>
                 <p>View website in:</p>
                 <input type="radio" id="light-mode" name="website-view" value="light-mode" onchange="modeChange(`light`)" checked></input>
-                <label for="light-mode">Light Mode</label>
+                <label class="input-labels-mode" for="light-mode">Light Mode</label>
                 <input type="radio" id="dark-mode" name="website-view" value="dark-mode" onchange="modeChange(`dark`)"></input>
-                <label for="dark-mode">Dark Mode</label>
+                <label class="input-labels-mode" for="dark-mode">Dark Mode</label>
+                <br></br>
+                <p>Choose Brightness:</p>
+                <div>
+                  <input id="myRange" type="range" min="0" max="255" oninput="brightnessChange()"></input>
+                </div>
                 <br></br>
                 <div class="mod-bu">
                 <a href="#" class="modal-trigger" data-modal="modal-name2">About Me</a> 
@@ -243,8 +248,7 @@
             <div id="portfolioColumn" class="col s12 m12 l8">
                 
                 <div id="portfolioTitle">
-                    <p id="portfolioText">Portfolio</p>
-
+                    <div id="portfolioText" class="portfolio-header">Portfolio</div>
                     <p id="firstCategoryText"></p>
                 </div>
                 
