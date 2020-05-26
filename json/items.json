@@ -1,19 +1,5 @@
 [
     {
-        "name": "Chattin-It-Up",
-        "description": "This application uses Node.js and socket.io to create a real time chat experience that anyone can enjoy. Users can log in with their usernames, which is unique to them and cannot be used by anyone else. There is a Community chat everyone lands into when logged in. Then if anyone is online, they can easily make a private with that person with just a simple click. and for those curious users, you will be able to see everyone online and see when someone leaves the private chat you created.",
-        "tech": "React.js, Node.js, Socket.io, CSS/SCSS",
-        "image": "images/chat-app-main.png",
-        "link": "https://afternoon-dawn-11650.herokuapp.com/"
-    },
-    {
-        "name": "KushKlinic.com",
-        "description": "This is website was create for a weed dispensary that is located in Los Angeles/San Diego Area. It has a custom Content Management System that was created for the owner.",
-        "tech": "Jade, CSS, JavaScript, JQuery, Node.js/Express, MongoDB",
-        "image": "images/kush-image.png",
-        "link": "https://mighty-shelf-00533.herokuapp.com/"
-    },
-    {
         "name": "Du-All.com",
         "description": "This is website was create for Du-All Safety, who provides safety services to the public and private sectors in California and throughout the United States. Du-All Safety assists businesses with Federal OSHA, CAL/OSHA, and environmental compliance",
         "tech": "Jade, CSS, JavaScript, JQuery, Node.js/Express, MongoDB",
@@ -21,12 +7,13 @@
         "link": "https://robert-vaccaro.github.io/du-all-safety-site/"
     },
     {
-        "name": "Custom Group Chat App",
-        "description": "This application uses Node.js/Express, Socket.io, and MongoDB/Mongoose to create a real time chat experience for all of its users. There is a special login page when you click the delete button. On this page, only an Admin with a specific password will be able to delete all of the current chat messages. When the admin enters the correct password, it will delete all of the messages that are currently in the database, which will reset the group chat's current messages. The next time the user logs in, all of the messages that occured before delection will disappear.",
-        "tech": "HTML, CSS/Bootstrap, JavaScript, JQuery, Node.js/Express, Socket.io, MongoDB/Mongoose",
-        "image": "images/group-chat-img.png",
-        "link": "https://serene-anchorage-46440.herokuapp.com/"
-    },
+        "name": "Vituity Patient Scheduler",
+        "description": "I personally created this program for Vituity Practice Management to speed up the process of entering patient information and scheduling anesthesiologist's to specific hospitals and patients. The average time to enter a days worth of patients and assign doctors to them is roughly 4 hours. With this program, I have reduced the time for scheduling anesthesiologists and entering patient information to 1 hour.",
+        "tech": "Python, tkinter, XlsxWriter, xlrd",
+        "image": "images/py-img.png",
+        "link": "Extra_File.exe"
+	},
+    
     {
         "name": "Custom Template Site",
         "description": "This is a custom template that uses React.js and Node.js/Express to give the viewers a smooth transitional website with clean styling. ",
@@ -49,18 +36,33 @@
         "link": "https://robert-vaccaro.github.io/Game-Of-Thrones-Trivia-App/index.html"
     },
     {
+        "name": "Chattin-It-Up",
+        "description": "This application uses Node.js and socket.io to create a real time chat experience that anyone can enjoy. Users can log in with their usernames, which is unique to them and cannot be used by anyone else. There is a Community chat everyone lands into when logged in. Then if anyone is online, they can easily make a private with that person with just a simple click. and for those curious users, you will be able to see everyone online and see when someone leaves the private chat you created.",
+        "tech": "React.js, Node.js, Socket.io, CSS/SCSS",
+        "image": "images/chat-app-main.png",
+        "link": "https://afternoon-dawn-11650.herokuapp.com/"
+    },
+    {
+        "name": "Custom Group Chat App",
+        "description": "This application uses Node.js/Express, Socket.io, and MongoDB/Mongoose to create a real time chat experience for all of its users. There is a special login page when you click the delete button. On this page, only an Admin with a specific password will be able to delete all of the current chat messages. When the admin enters the correct password, it will delete all of the messages that are currently in the database, which will reset the group chat's current messages. The next time the user logs in, all of the messages that occured before delection will disappear.",
+        "tech": "HTML, CSS/Bootstrap, JavaScript, JQuery, Node.js/Express, Socket.io, MongoDB/Mongoose",
+        "image": "images/group-chat-img.png",
+        "link": "https://serene-anchorage-46440.herokuapp.com/"
+    },
+
+    {
         "name": "Emotion Analysis",
         "description": "This application uses Get and Post requests for two different APIs and displays an analysis based on the keywords fromthe user’s input. It will display percentages of 6 different emotions and the one emotion that has the highest percentage will be sent to the second API to display images of that emotion the user is feeling.",
         "tech": "HTML, CSS, JavaScript, JQuery",
         "image": "images/emotion-analysis-main.png",
         "link": "https://robert-vaccaro.github.io/Emotion-Analysis/"
-    }
-    ,
+    },
     {
-        "name": "Vituity Patient Scheduler",
-        "description": "I personally created this program for Vituity Practice Management to speed up the process of entering patient information and scheduling anesthesiologist's to specific hospitals and patients. The average time to enter a days worth of patients and assign doctors to them is roughly 4 hours. With this program, I have reduced the time for scheduling anesthesiologists and entering patient information to 1 hour.",
-        "tech": "Python, tkinter, XlsxWriter, xlrd",
-        "image": "images/py-img.png",
-        "link": "Extra_File.exe"
-	}
+        "name": "KushKlinic.com",
+        "description": "This is website was create for a weed dispensary that is located in Los Angeles/San Diego Area. It has a custom Content Management System that was created for the owner.",
+        "tech": "Jade, CSS, JavaScript, JQuery, Node.js/Express, MongoDB",
+        "image": "images/kush-image.png",
+        "link": "https://mighty-shelf-00533.herokuapp.com/"
+    }
+    
 ]
