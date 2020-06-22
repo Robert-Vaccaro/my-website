@@ -5,6 +5,7 @@ if (mode === "dark"){
     $("body").css("background","black")
     $("#heroName").css("color","white")
     $("#description").css("color","white")
+    $("#comp-desc").css("color","white")
     $("#profileColumn p").css("color","white")
     $("div#columns figure").css("-webkit-box-shadow","0px 1px 28px 0px rgba(253,253,253,1)")
     $("div#columns figure").css("-moz-box-shadow","0px 1px 28px 0px rgba(253,253,253,1)")
@@ -21,6 +22,7 @@ if (mode === "dark"){
     $("body").css("background","#f5f6fa")
     $("#heroName").css("color","black")
     $("#description").css("color","black")
+    $("#comp-desc").css("color","black")
     $("#profileColumn p").css("color","black")
     $("div#columns figure").css("-webkit-box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
     $("div#columns figure").css("-moz-box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
@@ -69,7 +71,7 @@ workRequest.onreadystatechange = function () {
                 <figcaption>${work.description}</figcaption>
                 <br>
                 <div class="visit-link">
-                <a href="${work.link}">Visit!</a>
+                <a href="${work.link}" target="_blank">Visit!</a>
                 </div>
                 </figure>`;
             });

@@ -1,35 +1,104 @@
 [
     {
         "name": "Du-All.com",
-        "description": "This is website was create for Du-All Safety, who provides safety services to the public and private sectors in California and throughout the United States. Du-All Safety assists businesses with Federal OSHA, CAL/OSHA, and environmental compliance",
+        "description": "This is website was created for Du-All Safety, who provides safety services to the public and private sectors in California and throughout the United States. Du-All Safety assists businesses with Federal OSHA, CAL/OSHA, and environmental compliance",
         "tech": "Jade, CSS, JavaScript, JQuery, Node.js/Express, MongoDB",
         "image": "images/du-all-image.png",
         "link": "https://robert-vaccaro.github.io/du-all-safety-site/"
     },
     {
+        "name": "Custom Music Site",
+        "description": "This is a custom template that had music bands, artists, and producers in mind. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/band-temp.png",
+        "link": "https://robert-vaccaro.github.io/website-template-band/"
+    },
+    {
+        "name": "Custom Restaurant Site",
+        "description": "This is a custom template for restaurants who want more of a simple look yet can display their main items in forefront of the page. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/restuarant-temp.png",
+        "link": "https://robert-vaccaro.github.io/website-temp-restaurants/"
+    },
+    {
+        "name": "Custom Business Site",
+        "description": "This is a custom template for small to medium size businesses and startups. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/business-temp.png",
+        "link": "https://robert-vaccaro.github.io/website-template-architects/"
+    },
+    {
+        "name": "Custom Photographer Site",
+        "description": "This is a custom template for photographers, videographers or anyone looking to display artwork. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/photographer-temp.png",
+        "link": "https://robert-vaccaro.github.io/website-template-photographer/"
+    },
+    {
+        "name": "Custom Blogger Site",
+        "description": "This is a custom template for any type of writer or blogger looking for a clean and sleek look. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/blogger-temp.png",
+        "link": "https://robert-vaccaro.github.io/website-template-blogger/"
+    },
+    {
+        "name": "Custom Food Site",
+        "description": "This is a custom template for food shop, restaurants, food enthusiasts, foodies, food bloggers or anything along those lines. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/food-temp.png",
+        "link": "https://robert-vaccaro.github.io/website-template-restaurant-2/"
+    },
+    {
+        "name": "Custom Blogging Site",
+        "description": "This is a custom template for any type of writer or blogger. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/bloggin-temp.png",
+        "link": "https://robert-vaccaro.github.io/website-template-blogging/"
+    },
+    {
+        "name": "Custom Cafe Site",
+        "description": "This is a custom template for mostly cafes or coffee shops looking for simplicity. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/cafe-temp.png",
+        "link": "https://robert-vaccaro.github.io/website-template-cafe/"
+    },
+    {
+        "name": "Custom Shopping Page Site",
+        "description": "This is a custom template for anyone wanting a quick look at a shopping page template for their main site. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/shopping-page-temp.png",
+        "link": "https://robert-vaccaro.github.io/website-template-shopping-page/"
+    },
+    {
+        "name": "Custom Portfolio Site",
+        "description": "This is a custom template for any working professionals looking to up their game and obtain their dream job. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/portfolio-temp.png",
+        "link": "https://robert-vaccaro.github.io/website-template-portfolio/"
+    },
+    {
+        "name": "Custom Resume Site",
+        "description": "This is a custom template that uses React.js and Node.js/Express to give the viewers a smooth transitional website with clean styling. ",
+        "tech": "React.js, Node.js/Express",
+        "image": "images/port-img.png",
+        "link": "https://robert-vaccaro.github.io/Final-Portfolio/"
+    },
+    {
         "name": "Vituity Patient Scheduler",
-        "description": "I personally created this program for Vituity Practice Management to speed up the process of entering patient information and scheduling anesthesiologist's to specific hospitals and patients. The average time to enter a days worth of patients and assign doctors to them is roughly 4 hours. With this program, I have reduced the time for scheduling anesthesiologists and entering patient information to 1 hour.",
+        "description": "I personally created this program for Vituity Practice Management to speed up the process of entering patient information and scheduling anesthesiologist's to specific hospitals and patients. The average time to enter a day's worth of patients and assign doctors to them is roughly 4 hours. With this program, I have reduced the time for scheduling anesthesiologists and entering patient information to 1 hour.",
         "tech": "Python, tkinter, XlsxWriter, xlrd",
         "image": "images/py-img.png",
         "link": "Extra_File.exe"
 	},
-    
-    {
-        "name": "Custom Template Site",
-        "description": "This is a custom template that uses React.js and Node.js/Express to give the viewers a smooth transitional website with clean styling. ",
-        "tech": "React.js, Node.js/Express",
-        "image": "images/port-img.png",
-        "link": "https://morning-stream-10722.herokuapp.com/"
-    },
     {
         "name": "Big Ol' Brews",
-        "description": "This application searches through a complete database of all the belgian beers in the world. You will be able look up any beer by the specific type of beer, by specific beer name, and by the brewery that sells it. You will also be able filter the database by alcohol content percentage by using the slide bar at the top of the page.",
+        "description": "This application searches through a complete database of all the Belgian beers in the world. You will be able look up any beer by the specific type of beer, by specific beer name, and by the brewery that sells it. You will also be able filter the database by alcohol content percentage by using the slide bar at the top of the page.",
         "tech": "React.js, Node.js/Express, PostgreSQL",
         "image": "images/beer-app-main.png",
         "link": "https://lit-spire-67447.herokuapp.com/"
     },
     {
-        "name": "Game of Thrones Quiz",
+        "name": "Custom Online Quiz",
         "description": "Do you love Game of Thrones? Do you like to brag to all your friends about all the random facts you know about the show? Take this interactive Game of Thrones Trivia Quiz that was built to really put your Game of Thrones knowledge to the test! This app was inspired by my love for Game of Thrones and my love for trivia.",
         "tech": "HTML, CSS, JavaScript and JQuery",
         "image": "images/got-image.png",
@@ -44,7 +113,7 @@
     },
     {
         "name": "Custom Group Chat App",
-        "description": "This application uses Node.js/Express, Socket.io, and MongoDB/Mongoose to create a real time chat experience for all of its users. There is a special login page when you click the delete button. On this page, only an Admin with a specific password will be able to delete all of the current chat messages. When the admin enters the correct password, it will delete all of the messages that are currently in the database, which will reset the group chat's current messages. The next time the user logs in, all of the messages that occured before delection will disappear.",
+        "description": "This application uses Node.js/Express, Socket.io, and MongoDB/Mongoose to create a real time chat experience for all of its users. There is a special login page when you click the delete button. On this page, only an Admin with a specific password will be able to delete all of the current chat messages. When the admin enters the correct password, it will delete all of the messages that are currently in the database, which will reset the group chat's current messages. The next time the user logs in, all of the messages that occured before deletion will disappear.",
         "tech": "HTML, CSS/Bootstrap, JavaScript, JQuery, Node.js/Express, Socket.io, MongoDB/Mongoose",
         "image": "images/group-chat-img.png",
         "link": "https://serene-anchorage-46440.herokuapp.com/"
@@ -52,17 +121,9 @@
 
     {
         "name": "Emotion Analysis",
-        "description": "This application uses Get and Post requests for two different APIs and displays an analysis based on the keywords fromthe user’s input. It will display percentages of 6 different emotions and the one emotion that has the highest percentage will be sent to the second API to display images of that emotion the user is feeling.",
+        "description": "This application uses Get and Post requests for two different APIs and displays an analysis based on the keywords from the user’s input. It will display percentages of 6 different emotions and the one emotion that has the highest percentage will be sent to the second API to display images of that emotion the user is feeling.",
         "tech": "HTML, CSS, JavaScript, JQuery",
         "image": "images/emotion-analysis-main.png",
         "link": "https://robert-vaccaro.github.io/Emotion-Analysis/"
-    },
-    {
-        "name": "KushKlinic.com",
-        "description": "This is website was create for a weed dispensary that is located in Los Angeles/San Diego Area. It has a custom Content Management System that was created for the owner.",
-        "tech": "Jade, CSS, JavaScript, JQuery, Node.js/Express, MongoDB",
-        "image": "images/kush-image.png",
-        "link": "https://mighty-shelf-00533.herokuapp.com/"
     }
-    
 ]

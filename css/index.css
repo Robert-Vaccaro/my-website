@@ -13,7 +13,10 @@ body {
 -ms-overflow-style: none;
 
 }
-
+.brightness-slider{
+  width: 50%;
+  margin: auto;
+}
 #profileColumn::-webkit-scrollbar{
 	display: none;
   }
@@ -892,7 +895,7 @@ button {
     column-width: 320px;
     column-gap: 15px;
   width: 90%;
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin: 50px auto;
 }
 
