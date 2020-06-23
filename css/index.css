@@ -71,7 +71,7 @@ body {
 }
 
 #portfolioTitle {
-  margin-left: 44px;
+  margin-left: 61px;
 }
 
 #portfolioText {
@@ -135,7 +135,11 @@ body {
     }
     #portfolioTitle {
       margin-left:  0px;
-        text-align: center;
+      text-align: center;
+    }
+    .site-filter-tabs{
+      margin-left:  0px;
+      justify-content: center;
     }
     #portfolioColumn {
         padding-left: 8px;
@@ -687,7 +691,24 @@ button {
     text-align: right;
     cursor: pointer;
   }
-  
+  .site-filter-tabs{
+    display: flex;
+    
+  }
+  .site-filter-tabs p{
+    margin-top: 30px;
+    margin-bottom: -30px;
+  }
+  .filterText{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .filterText:hover{
+    background-color: #d9e7f5
+  }
+  .filterText:active{
+    background-color: #bcd7f1
+  }
   /* Animation */
   @-webkit-keyframes modalbox2 {
     0% {
@@ -975,3 +996,6 @@ div#columns:hover figure:not(:hover) {
   #columns { column-gap: 0px; }
   #columns figure { width: 100%; }
 }
+
+
+

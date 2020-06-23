@@ -5,6 +5,7 @@
         "tech": "Jade, CSS, JavaScript, JQuery, Node.js/Express, MongoDB",
         "image": "images/du-all-image.png",
         "link": "https://robert-vaccaro.github.io/du-all-safety-site/"
+        ,"class":"live"
     },
     {
         "name": "Custom Music Site",
@@ -12,6 +13,7 @@
         "tech": "HTML, CSS, Javascript",
         "image": "images/band-temp.png",
         "link": "https://robert-vaccaro.github.io/website-template-band/"
+        ,"class":"template"
     },
     {
         "name": "Custom Restaurant Site",
@@ -19,6 +21,7 @@
         "tech": "HTML, CSS, Javascript",
         "image": "images/restuarant-temp.png",
         "link": "https://robert-vaccaro.github.io/website-temp-restaurants/"
+        ,"class":"template"
     },
     {
         "name": "Custom Business Site",
@@ -26,6 +29,7 @@
         "tech": "HTML, CSS, Javascript",
         "image": "images/business-temp.png",
         "link": "https://robert-vaccaro.github.io/website-template-architects/"
+        ,"class":"template"
     },
     {
         "name": "Custom Photographer Site",
@@ -33,6 +37,7 @@
         "tech": "HTML, CSS, Javascript",
         "image": "images/photographer-temp.png",
         "link": "https://robert-vaccaro.github.io/website-template-photographer/"
+        ,"class":"template"
     },
     {
         "name": "Custom Journal Site",
@@ -40,6 +45,7 @@
         "tech": "HTML, CSS, Javascript",
         "image": "images/blogger-temp.png",
         "link": "https://robert-vaccaro.github.io/website-template-blogger/"
+        ,"class":"template"
     },
     {
         "name": "Custom Food Site",
@@ -47,6 +53,7 @@
         "tech": "HTML, CSS, Javascript",
         "image": "images/food-temp.png",
         "link": "https://robert-vaccaro.github.io/website-template-restaurant-2/"
+        ,"class":"template"
     },
     {
         "name": "Custom Blog Site",
@@ -54,6 +61,7 @@
         "tech": "HTML, CSS, Javascript",
         "image": "images/bloggin-temp.png",
         "link": "https://robert-vaccaro.github.io/website-template-blogging/"
+        ,"class":"template"
     },
     {
         "name": "Custom Cafe Site",
@@ -61,6 +69,7 @@
         "tech": "HTML, CSS, Javascript",
         "image": "images/cafe-temp.png",
         "link": "https://robert-vaccaro.github.io/website-template-cafe/"
+        ,"class":"template"
     },
     {
         "name": "Custom Shopping Page Site",
@@ -68,6 +77,7 @@
         "tech": "HTML, CSS, Javascript",
         "image": "images/shopping-page-temp.png",
         "link": "https://robert-vaccaro.github.io/website-template-shopping-page/"
+        ,"class":"template"
     },
     {
         "name": "Custom Portfolio Site",
@@ -75,6 +85,7 @@
         "tech": "HTML, CSS, Javascript",
         "image": "images/portfolio-temp.png",
         "link": "https://robert-vaccaro.github.io/website-template-portfolio/"
+        ,"class":"template"
     },
     {
         "name": "Custom Resume Site",
@@ -82,6 +93,7 @@
         "tech": "React.js, Node.js/Express",
         "image": "images/port-img.png",
         "link": "https://robert-vaccaro.github.io/Final-Portfolio/"
+        ,"class":"template"
     },
     {
         "name": "Vituity Patient Scheduler",
@@ -89,6 +101,7 @@
         "tech": "Python, tkinter, XlsxWriter, xlrd",
         "image": "images/py-img.png",
         "link": "Extra_File.exe"
+        ,"class":"live"
 	},
     {
         "name": "Big Ol' Brews",
@@ -96,6 +109,7 @@
         "tech": "React.js, Node.js/Express, PostgreSQL",
         "image": "images/beer-app-main.png",
         "link": "https://lit-spire-67447.herokuapp.com/"
+        ,"class":"live"
     },
     {
         "name": "Custom Online Quiz",
@@ -103,6 +117,7 @@
         "tech": "HTML, CSS, JavaScript and JQuery",
         "image": "images/got-image.png",
         "link": "https://robert-vaccaro.github.io/Game-Of-Thrones-Trivia-App/index.html"
+        ,"class":"live"
     },
     {
         "name": "Chattin-It-Up",
@@ -110,6 +125,7 @@
         "tech": "React.js, Node.js, Socket.io, CSS/SCSS",
         "image": "images/chat-app-main.png",
         "link": "https://afternoon-dawn-11650.herokuapp.com/"
+        ,"class":"live"
     },
     {
         "name": "Custom Group Chat App",
@@ -117,6 +133,7 @@
         "tech": "HTML, CSS/Bootstrap, JavaScript, JQuery, Node.js/Express, Socket.io, MongoDB/Mongoose",
         "image": "images/group-chat-img.png",
         "link": "https://serene-anchorage-46440.herokuapp.com/"
+        ,"class":"live"
     },
 
     {
@@ -125,5 +142,6 @@
         "tech": "HTML, CSS, JavaScript, JQuery",
         "image": "images/emotion-analysis-main.png",
         "link": "https://robert-vaccaro.github.io/Emotion-Analysis/"
+        ,"class": "live"
     }
 ]

@@ -1,6 +1,5 @@
 function modeChange(mode){
 if (mode === "dark"){
-    
     $(".input-labels-mode").css("color","white")
     $(".portfolio-header").css("color","white")
     $("body").css("background","black")
@@ -39,6 +38,27 @@ if (mode === "dark"){
     $(".input-labels-mode").css("color","black")
 }
 }
+function filterSites(mode){
+    if (mode === "all"){
+        $(".live").css("display","inline-block")
+        $(".template").css("display","inline-block")
+        
+        //$(".input-labels-mode").css("color","white")
+
+    }
+    if (mode === "live"){
+        $(".live").css("display","inline-block")
+        $(".template").css("display","none")
+        //$(".input-labels-mode").css("color","white")
+
+    }
+    if (mode === "template"){
+        $(".live").css("display","none")
+        $(".template").css("display","inline-block")
+        //$(".input-labels-mode").css("color","white")
+
+    }
+    }
 function brightnessChange() {
 
     rangeValue = document.getElementById("myRange").value
@@ -77,7 +97,7 @@ workRequest.onreadystatechange = function () {
         if (workRequest.status === 200 || workRequest.status == 0) {
             var html = "";
             JSON.parse(workRequest.responseText).forEach(function (work) {
-                html += `<figure>
+                html += `<figure class="${work.class}">
                 <img src=${work.image}></img>
                 <figcaption class="port-title">${work.name}</figcaption>
                 <figcaption>${work.description}</figcaption>
