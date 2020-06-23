@@ -1,5 +1,8 @@
 function modeChange(mode){
 if (mode === "dark"){
+    
+    $(".input-labels-mode").css("color","white")
+    $(".portfolio-header").css("color","white")
     $("body").css("background","black")
     $("#heroName").css("color","white")
     $("#description").css("color","white")
@@ -9,6 +12,7 @@ if (mode === "dark"){
     $("div#columns figure").css("-moz-box-shadow","0px 1px 28px 0px rgba(253,253,253,1)")
     $("div#columns figure").css("box-shadow","0px 1px 28px 0px rgba(253,253,253,1)")
     $(".dankicon a:nth-child(2)").css("color","white") 
+    $("#portfolioText").css("color","white")
     $("#portfolioTitle").css("color","white")
     $("#contactButton").css("border","2px solid white").css("color","white")
     $("#profileImage").css("-webkit-box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
@@ -16,6 +20,7 @@ if (mode === "dark"){
     $("#profileImage").css("box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
     $(".input-labels-mode").css("color","white")
 } else {
+
     $("body").css("background","#f5f6fa")
     $("#heroName").css("color","black")
     $("#description").css("color","black")
@@ -25,6 +30,7 @@ if (mode === "dark"){
     $("div#columns figure").css("-moz-box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
     $("div#columns figure").css("box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
     $(".dankicon a:nth-child(2)").css("color","black")
+    $("#portfolioText").css("color","black")
     $("#portfolioTitle").css("color","black")
     $("#contactButton").css("border","2px solid black").css("color","black")
     $("#profileImage").css("-webkit-box-shadow","0px 1px 28px 0px rgba(0,0,0,0.62)")
@@ -41,14 +47,24 @@ function brightnessChange() {
     $("body").css("background",`rgba(${rangeValue},${rangeValue},${rangeValue})`)
     if (rangeValue < 90){
         modeChange("dark")
-        $(".input-labels-mode").css("color","white")
-        $(".portfolio-header").css("color","white")
+
         $("body").css("background",`rgba(${rangeValue},${rangeValue},${rangeValue})`)
     }
     if (rangeValue > 180){
         modeChange("light")
-        $(".input-labels-mode").css("color","black")
-        $(".portfolio-header").css("color","black")
+
+        $("body").css("background",`rgba(${rangeValue},${rangeValue},${rangeValue})`)
+    }
+    if (180 > rangeValue > 120){
+        modeChange("light")
+
+
+        $("body").css("background",`rgba(${rangeValue},${rangeValue},${rangeValue})`)
+    }
+    if (120 > rangeValue > 90){
+        modeChange("dark")
+
+
         $("body").css("background",`rgba(${rangeValue},${rangeValue},${rangeValue})`)
     }
 }
