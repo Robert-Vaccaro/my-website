@@ -1,7 +1,5 @@
 function modeChange(mode){
-console.log(mode)
 if (mode === "dark"){
-    console.log("its dark")
     $("body").css("background","black")
     $("#heroName").css("color","white")
     $("#description").css("color","white")
@@ -18,7 +16,6 @@ if (mode === "dark"){
     $("#profileImage").css("box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
     $(".input-labels-mode").css("color","white")
 } else {
-    console.log("its light")
     $("body").css("background","#f5f6fa")
     $("#heroName").css("color","black")
     $("#description").css("color","black")
@@ -37,9 +34,9 @@ if (mode === "dark"){
 }
 }
 function brightnessChange() {
-    console.log("yes")
+
     rangeValue = document.getElementById("myRange").value
-    console.log(rangeValue)
+
     $(".thumb").css("display",'none')
     $("body").css("background",`rgba(${rangeValue},${rangeValue},${rangeValue})`)
     if (rangeValue < 90){
@@ -64,14 +61,13 @@ workRequest.onreadystatechange = function () {
         if (workRequest.status === 200 || workRequest.status == 0) {
             var html = "";
             JSON.parse(workRequest.responseText).forEach(function (work) {
-                console.log(work.name);
                 html += `<figure>
                 <img src=${work.image}></img>
                 <figcaption class="port-title">${work.name}</figcaption>
                 <figcaption>${work.description}</figcaption>
                 <br>
                 <div class="visit-link">
-                <a href="${work.link}" target="_blank">Visit!</a>
+                <a class="box" href="${work.link}" target="_blank"><button class="btn-blue">Visit</button></a>
                 </div>
                 </figure>`;
             });
