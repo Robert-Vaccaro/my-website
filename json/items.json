@@ -15,6 +15,7 @@
         "link": "https://robert-vaccaro.github.io/website-template-band/"
         ,"class":"template"
     },
+    
     {
         "name": "Custom Restaurant Site",
         "description": "This is a custom template for restaurants who want more of a simple look yet can display their main items in forefront of the page. This was created using HTML, CSS, Javascript",
@@ -96,6 +97,102 @@
         ,"class":"template"
     },
     {
+        "name": "Custom Wedding Site",
+        "description": "This is a custom template for couples looking to display photos, details and/or collect reservations for their wedding. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/wedding.png",
+        "link": "https://robert-vaccaro.github.io/website-template-weddings/"
+        ,"class":"template"
+    },
+    {
+        "name": "Custom Photography Site",
+        "description": "This is a custom template for photographers or artists. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/port1.png",
+        "link": "https://robert-vaccaro.github.io/website-template-photography/"
+        ,"class":"template"
+    },
+    {
+        "name": "Custom Photolio Site",
+        "description": "This is a custom template for photographers or artists. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/photolio1.png",
+        "link": "https://robert-vaccaro.github.io/website-template-photolio/"
+        ,"class":"template"
+    },
+    {
+        "name": "Custom Startup Site",
+        "description": "This is a custom template for startups or small to medium size businesses. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/startup1.png",
+        "link": "https://robert-vaccaro.github.io/website-template-startup/"
+        ,"class":"template"
+    },
+    {
+        "name": "Custom Business Site",
+        "description": "This is a custom template for startups or small to medium size businesses. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/startup2.png",
+        "link": "https://robert-vaccaro.github.io/website-template-startup-2/"
+        ,"class":"template"
+    },
+    {
+        "name": "Custom Interior Designer Site",
+        "description": "This is a custom template for any type of designer. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/interior-design.png",
+        "link": "https://robert-vaccaro.github.io/website-template-interior-designer/"
+        ,"class":"template"
+    },
+    {
+        "name": "Custom Bakery Site",
+        "description": "This is a custom template for restaurants or food shops. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/bakery.png",
+        "link": "https://robert-vaccaro.github.io/website-template-restaurant/"
+        ,"class":"template"
+    },
+    {
+        "name": "Custom Pizza Shop Site",
+        "description": "This is a custom template for restaurants or food shops. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/pizza.png",
+        "link": "https://robert-vaccaro.github.io/website-template-restaurant-3/"
+        ,"class":"template"
+    },
+    {
+        "name": "Custom Photographer Site",
+        "description": "This is a custom template for displaying artwork or photography. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/portfolio2.png",
+        "link": "https://robert-vaccaro.github.io/website-template-photography-2/"
+        ,"class":"template"
+    },
+    {
+        "name": "Custom Photographer Site",
+        "description": "This is a custom template for displaying artwork or photography. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/portfolio3.png",
+        "link": "https://robert-vaccaro.github.io/website-template-portfolio-3/"
+        ,"class":"template"
+    },
+    {
+        "name": "Custom Portfolio Site",
+        "description": "This is a custom template for displaying artwork or photography. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/portfolio5.png",
+        "link": "https://robert-vaccaro.github.io/website-template-portfolio-2/"
+        ,"class":"template"
+    },
+    {
+        "name": "Custom Photography Site",
+        "description": "This is a custom template for photographers or artists. This was created using HTML, CSS, Javascript",
+        "tech": "HTML, CSS, Javascript",
+        "image": "images/portfolio4.png",
+        "link": "https://robert-vaccaro.github.io/website-template-photography-3/"
+        ,"class":"template"
+    },
+    {
         "name": "Vituity Patient Scheduler",
         "description": "I personally created this program for Vituity Practice Management to speed up the process of entering patient information and scheduling anesthesiologist's to specific hospitals and patients. The average time to enter a day's worth of patients and assign doctors to them is roughly 4 hours. With this program, I have reduced the time for scheduling anesthesiologists and entering patient information to 1 hour.",
         "tech": "Python, tkinter, XlsxWriter, xlrd",
@@ -144,4 +241,5 @@
         "link": "https://robert-vaccaro.github.io/Emotion-Analysis/"
         ,"class": "live"
     }
+
 ]
