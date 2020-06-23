@@ -35,8 +35,8 @@
         "link": "https://robert-vaccaro.github.io/website-template-photographer/"
     },
     {
-        "name": "Custom Blogger Site",
-        "description": "This is a custom template for any type of writer or blogger looking for a clean and sleek look. This was created using HTML, CSS, Javascript",
+        "name": "Custom Journal Site",
+        "description": "This is a custom template for any type of individual writer, journalist or blogger looking for a clean and sleek look. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/blogger-temp.png",
         "link": "https://robert-vaccaro.github.io/website-template-blogger/"
@@ -50,7 +50,7 @@
     },
     {
         "name": "Custom Blogging Site",
-        "description": "This is a custom template for any type of writer or blogger. This was created using HTML, CSS, Javascript",
+        "description": "This is a custom template for any type of writer or blogger that wants more images and information on the front page. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/bloggin-temp.png",
         "link": "https://robert-vaccaro.github.io/website-template-blogging/"
@@ -113,7 +113,7 @@
     },
     {
         "name": "Custom Group Chat App",
-        "description": "This application uses Node.js/Express, Socket.io, and MongoDB/Mongoose to create a real time chat experience for all of its users. There is a special login page when you click the delete button. On this page, only an Admin with a specific password will be able to delete all of the current chat messages. When the admin enters the correct password, it will delete all of the messages that are currently in the database, which will reset the group chat's current messages. The next time the user logs in, all of the messages that occured before deletion will disappear.",
+        "description": "This application uses Node.js/Express, Socket.io, and MongoDB/Mongoose to create a real time chat experience for all of its users. There is a special login page when you click the delete button. On this page, only an Admin with a specific password will be able to delete all of the current chat messages. When the admin enters the correct password, it will delete all of the messages that are currently in the database, which will reset the group chat's current messages. The next time the user logs in, all of the messages that occurred before deletion will disappear.",
         "tech": "HTML, CSS/Bootstrap, JavaScript, JQuery, Node.js/Express, Socket.io, MongoDB/Mongoose",
         "image": "images/group-chat-img.png",
         "link": "https://serene-anchorage-46440.herokuapp.com/"
