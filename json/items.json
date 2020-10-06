@@ -198,7 +198,7 @@
         "tech": "Python, tkinter, XlsxWriter, xlrd",
         "image": "images/py-img.png",
         "link": "Extra_File.exe"
-        ,"class":"live"
+        ,"class":"python"
 	},
     {
         "name": "Big Ol' Brews",
@@ -240,6 +240,33 @@
         "image": "images/emotion-analysis-main.png",
         "link": "https://robert-vaccaro.github.io/Emotion-Analysis/"
         ,"class": "live"
+    },
+
+    {
+        "name": "MemeStock",
+        "description": "Welcome to your meme stockpile! If you want to compete for the greatest meme or just want to take a look at a large gallery of memes, then this is the app for you. The more likes you get, the more experience you earn, which will move you up in the MemeStock Rankings. Show off your memes on MemeStock today!",
+        "tech": "Swift, SDWebImage, Alamofire, JGProgressHUD, Node/Express, s3, MongoDB/Mongoose",
+        "image": "images/Memestock-preview.png",
+        "link": "https://apps.apple.com/us/app/memestock/id1534101069"
+        ,"class": "ios"
+    },
+
+    {
+        "name": "Entello",
+        "description": "A realtime trivia multiplayer game! Just type in your favorite username, select a photo, and send the game code to your friends. You can also message your friends in realtime while the game is happening. Start working your brain muscles on Entello!",
+        "tech": "Swift, Alamofire, SDWebImage, Google-Mobile-Ads-SDK, Firebase Core, Firebase Auth, Firebase Database, Firebase Analytics, Firebase Messaging, Firebase Crashlytics, ImagePicker, ChameleonFramework, JGProgressHUD, Node/Express, s3, MongoDB/Mongoose",
+        "image": "images/Entello-Preview.png",
+        "link": "https://apps.apple.com/us/app/entello/id1533220556"
+        ,"class": "ios"
+    },
+
+    {
+        "name": "Gossa",
+        "description": "A topic based forum for everyone! If you have an college email, there is even a private section for only the students at your college. You can post questions, repond to posts and create your own chat rooms. Get started on Gossa today!",
+        "tech": "Swift, Alamofire, SDWebImage, Firebase Core, Firebase Auth, Firebase Database, Firebase Analytics, Firebase Messaging, Firebase Crashlytics, ImagePicker, ChameleonFramework, JGProgressHUD, Node/Express, s3",
+        "image": "images/Gossa-Preview.png",
+        "link": "https://apps.apple.com/us/app/id1523240373#?platform=iphone"
+        ,"class": "ios"
     }
 
 ]

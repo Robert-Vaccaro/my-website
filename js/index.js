@@ -38,23 +38,39 @@ if (mode === "dark"){
     $(".input-labels-mode").css("color","black")
 }
 }
+$(document).ready(function() {
+    filterSites("ios")
+  });
 function filterSites(mode){
-    if (mode === "all"){
-        $(".live").css("display","inline-block")
-        $(".template").css("display","inline-block")
-        
+    if (mode === "ios"){
+        $(".ios").css("display","inline-block")
+        $(".live").css("display","none")
+        $(".template").css("display","none")
+        $(".python").css("display","none")
         //$(".input-labels-mode").css("color","white")
 
     }
     if (mode === "live"){
+        $(".ios").css("display","none")
         $(".live").css("display","inline-block")
         $(".template").css("display","none")
+        $(".python").css("display","none")
         //$(".input-labels-mode").css("color","white")
 
     }
     if (mode === "template"){
+        $(".ios").css("display","none")
         $(".live").css("display","none")
         $(".template").css("display","inline-block")
+        $(".python").css("display","none")
+        //$(".input-labels-mode").css("color","white")
+
+    }
+    if (mode === "python"){
+        $(".python").css("display","inline-block")
+        $(".ios").css("display","none")
+        $(".live").css("display","none")
+        $(".template").css("display","none")
         //$(".input-labels-mode").css("color","white")
 
     }
@@ -101,6 +117,8 @@ workRequest.onreadystatechange = function () {
                 <img src=${work.image}></img>
                 <figcaption class="port-title">${work.name}</figcaption>
                 <figcaption>${work.description}</figcaption>
+                <br>
+                <figcaption><b>Technologies</b>: ${work.tech}</figcaption>
                 <br>
                 <div class="visit-link">
                 <a class="box" href="${work.link}" target="_blank"><button class="btn-blue">Visit</button></a>
