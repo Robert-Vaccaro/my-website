@@ -239,14 +239,21 @@ padding-right: 10px;
 color: white;
 }
 
-.python {
-width: 90%;
-background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
-background-size: 600% 600%;
--webkit-animation: AnimationName 7s ease infinite;
--moz-animation: AnimationName 7s ease infinite;
--o-animation: AnimationName 7s ease infinite;
-animation: AnimationName 7s ease infinite;
+.pskills{
+  width: 90%;  background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 7s ease infinite;
+  -moz-animation: AnimationName 7s ease infinite;
+  -o-animation: AnimationName 7s ease infinite;
+  animation: AnimationName 7s ease infinite;
+}
+.pskills{
+  width: 90%;  background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 7s ease infinite;
+  -moz-animation: AnimationName 7s ease infinite;
+  -o-animation: AnimationName 7s ease infinite;
+  animation: AnimationName 7s ease infinite;
 }
 .js {
 width: 85%;  background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
@@ -307,7 +314,7 @@ animation: AnimationName 7s ease infinite;
     -o-animation: AnimationName 7s ease infinite;
     animation: AnimationName 7s ease infinite;}
 .swift {
-    width: 55%;   
+    width: 90%;   
     background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
     background-size: 600% 600%;
     -webkit-animation: AnimationName 7s ease infinite;
@@ -322,8 +329,14 @@ animation: AnimationName 7s ease infinite;
     -moz-animation: AnimationName 7s ease infinite;
     -o-animation: AnimationName 7s ease infinite;
     animation: AnimationName 7s ease infinite;}
-  
-
+.tkinter{
+  width: 75%;   
+  background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 7s ease infinite;
+  -moz-animation: AnimationName 7s ease infinite;
+  -o-animation: AnimationName 7s ease infinite;
+  animation: AnimationName 7s ease infinite;}
   
   @-webkit-keyframes AnimationName {
       0%{background-position:0% 50%}
