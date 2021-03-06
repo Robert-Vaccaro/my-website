@@ -238,14 +238,7 @@ color: white;
 }
 
 .pskills{
-  width: 90%;  background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
-  background-size: 600% 600%;
-  -webkit-animation: AnimationName 7s ease infinite;
-  -moz-animation: AnimationName 7s ease infinite;
-  -o-animation: AnimationName 7s ease infinite;
-  animation: AnimationName 7s ease infinite;
-}
-.pskills{
+  border-radius: 7px;
   width: 90%;  background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 7s ease infinite;
@@ -254,6 +247,7 @@ color: white;
   animation: AnimationName 7s ease infinite;
 }
 .js {
+  border-radius: 7px;
 width: 85%;  background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
 background-size: 600% 600%;
 -webkit-animation: AnimationName 7s ease infinite;
@@ -262,6 +256,7 @@ background-size: 600% 600%;
 animation: AnimationName 7s ease infinite;
 }
 .nodeexp {
+  border-radius: 7px;
     width: 80%;  
     background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
     background-size: 600% 600%;
@@ -271,6 +266,7 @@ animation: AnimationName 7s ease infinite;
     animation: AnimationName 7s ease infinite;
     }
 .mongo {
+  border-radius: 7px;
 width: 80%;  
 background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
 background-size: 600% 600%;
@@ -280,6 +276,7 @@ background-size: 600% 600%;
 animation: AnimationName 7s ease infinite;
 }
 .react {
+  border-radius: 7px;
     width: 70%;   
     background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
     background-size: 600% 600%;
@@ -288,6 +285,7 @@ animation: AnimationName 7s ease infinite;
     -o-animation: AnimationName 7s ease infinite;
     animation: AnimationName 7s ease infinite;}
 .htmlcss {
+  border-radius: 7px;
     width: 65%;   
     background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
     background-size: 600% 600%;
@@ -296,6 +294,7 @@ animation: AnimationName 7s ease infinite;
     -o-animation: AnimationName 7s ease infinite;
     animation: AnimationName 7s ease infinite;}
 .sql {
+  border-radius: 7px;
     width: 65%;   
     background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
     background-size: 600% 600%;
@@ -304,6 +303,7 @@ animation: AnimationName 7s ease infinite;
     -o-animation: AnimationName 7s ease infinite;
     animation: AnimationName 7s ease infinite;}
 .postgres {
+  border-radius: 7px;
     width: 65%;   
     background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
     background-size: 600% 600%;
@@ -312,6 +312,7 @@ animation: AnimationName 7s ease infinite;
     -o-animation: AnimationName 7s ease infinite;
     animation: AnimationName 7s ease infinite;}
 .swift {
+  border-radius: 7px;
     width: 90%;   
     background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
     background-size: 600% 600%;
@@ -320,6 +321,7 @@ animation: AnimationName 7s ease infinite;
     -o-animation: AnimationName 7s ease infinite;
     animation: AnimationName 7s ease infinite;}
 .java{
+  border-radius: 7px;
     width: 50%;   
     background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
     background-size: 600% 600%;
@@ -328,6 +330,7 @@ animation: AnimationName 7s ease infinite;
     -o-animation: AnimationName 7s ease infinite;
     animation: AnimationName 7s ease infinite;}
 .tkinter{
+  border-radius: 7px;
   width: 75%;   
   background: linear-gradient(270deg, #728aea, #2e6ce8, #0038a7);
   background-size: 600% 600%;
@@ -371,6 +374,7 @@ animation: AnimationName 7s ease infinite;
 }
 
 .modal {
+  
   display: none; 
   position: fixed;
   width: 100%;
@@ -383,6 +387,7 @@ animation: AnimationName 7s ease infinite;
 }
 
 .modal-box {
+  
   position: relative;
   width: 80%;
   max-width: 920px;
@@ -393,12 +398,16 @@ animation: AnimationName 7s ease infinite;
 }
 
 .modal-header {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
   padding: 20px 40px;
   background: #546E7A;
   color: #ffffff;
 }
 
 .modal-body {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
   background: #ECEFF1;
   padding: 60px 40px;
 }
@@ -577,12 +586,16 @@ button {
   }
   
   .modal-header2 {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
     padding: 20px 40px;
     background: #546E7A;
     color: #ffffff;
   }
   
   .modal-body2 {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
     background: #ECEFF1;
     padding: 60px 40px;
   }
@@ -690,12 +703,16 @@ button {
   }
   
   .modal-header3 {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
     padding: 20px 40px;
     background: #546E7A;
     color: #ffffff;
   }
   
   .modal-body3 {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
     background: #ECEFF1;
     padding: 60px 40px;
   }
@@ -829,12 +846,16 @@ button {
   }
   
   .modal-header4 {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
     padding: 20px 40px;
     background: #546E7A;
     color: #ffffff;
   }
   
   .modal-body4 {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
     background: #ECEFF1;
     padding: 60px 40px;
   }
