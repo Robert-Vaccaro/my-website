@@ -37,8 +37,8 @@
     },
     {
     "name": "Spamingo",
-    "description": "A topic based forum for everyone! If you have an college email, there is even a private section for only the students at your college. You can post questions, repond to posts and create your own chat rooms. Get started on Gossa today!",
-    "tech": "Swift, Alamofire, SDWebImaging, JGProgressHUD, Node/Express, MongoDB, and Mongoose",
+    "description": "A game where you're a space flamingo protecting the world against an invasion of cats, pandas, and cows!",
+    "tech": "Swift, SpriteKit, Alamofire, SDWebImaging, JGProgressHUD, Node/Express, MongoDB, and Mongoose",
     "image": "images/ios-images/Gossa.png",
     "video":"images/ios-images/RecordIt-5D211591-5185-4AAA-AFD5-334ECC756744.mp4",
     "link": "https://apps.apple.com/us/app/id1523240373#?platform=iphone"
