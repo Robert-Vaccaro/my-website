@@ -3,7 +3,8 @@
         "name": "MemeStock",
         "description": "Welcome to your meme stockpile! If you want to compete for the greatest meme or just want to take a look at a large gallery of memes, then this is the app for you. The more likes you get, the more experience you earn, which will move you up in the MemeStock Rankings. Show off your memes on MemeStock today!",
         "tech": "Swift, SDWebImage, Alamofire, JGProgressHUD, Node/Express, s3, MongoDB/Mongoose",
-        "image": "images/Memestock-preview.png",
+        "image": "images/ios-images/memestock-iphone.png",
+        "video":"",
         "link": "https://apps.apple.com/us/app/memestock/id1534101069"
         ,"class": "ios"
     },
@@ -11,7 +12,8 @@
         "name": "Entello",
         "description": "A realtime trivia multiplayer game! Just type in your favorite username, select a photo, and send the game code to your friends. You can also message your friends in realtime while the game is happening. Start working your brain muscles on Entello!",
         "tech": "Swift, Alamofire, SDWebImage, Google-Mobile-Ads-SDK, Firebase Core, Firebase Auth, Firebase Database, Firebase Analytics, Firebase Messaging, Firebase Crashlytics, ImagePicker, ChameleonFramework, JGProgressHUD, Node/Express, s3, MongoDB/Mongoose",
-        "image": "images/Entello-Preview.png",
+        "image": "images/ios-images/Entello.png",
+        "video":"",
         "link": "https://apps.apple.com/us/app/entello/id1533220556"
         ,"class": "ios"
     },
@@ -19,16 +21,45 @@
         "name": "Gossa",
         "description": "A topic based forum for everyone! If you have an college email, there is even a private section for only the students at your college. You can post questions, repond to posts and create your own chat rooms. Get started on Gossa today!",
         "tech": "Swift, Alamofire, SDWebImage, Firebase Core, Firebase Auth, Firebase Database, Firebase Analytics, Firebase Messaging, Firebase Crashlytics, ImagePicker, ChameleonFramework, JGProgressHUD, Node/Express, s3",
-        "image": "images/Gossa-Preview.png",
+        "image": "images/ios-images/Gossa.png",
+        "video":"",
         "link": "https://apps.apple.com/us/app/id1523240373#?platform=iphone"
         ,"class": "ios"
+    },
+    {
+        "name": "ARKit Demo",
+        "description": "This is a interactive AR game called \"Hit The Sandwich\". It was created using ARKit in Swift. The second portion of the video is a drawing feature also using ARKit.",
+        "tech": "Swift and ARKit",
+        "image": "",
+        "video":"images/ios-images/RecordIt-9687FDAF-F9C0-4BB6-AA1B-FD40D6FEB3BD.mp4",
+        "link": "https://apps.apple.com/us/app/id1523240373#?platform=iphone"
+        ,"class": "ios"
+    },
+    {
+    "name": "Spamingo",
+    "description": "A topic based forum for everyone! If you have an college email, there is even a private section for only the students at your college. You can post questions, repond to posts and create your own chat rooms. Get started on Gossa today!",
+    "tech": "Swift, Alamofire, SDWebImaging, JGProgressHUD, Node/Express, MongoDB, and Mongoose",
+    "image": "images/ios-images/Gossa.png",
+    "video":"images/ios-images/RecordIt-5D211591-5185-4AAA-AFD5-334ECC756744.mp4",
+    "link": "https://apps.apple.com/us/app/id1523240373#?platform=iphone"
+    ,"class": "ios"
     },
     {
         "name": "Du-All.com",
         "description": "This is website was created for Du-All Safety, who provides safety services to the public and private sectors in California and throughout the United States. Du-All Safety assists businesses with Federal OSHA, CAL/OSHA, and environmental compliance",
         "tech": "Jade, CSS, JavaScript, JQuery, Node.js/Express, MongoDB",
         "image": "images/du-all-image.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/du-all-safety-site/"
+        ,"class":"live"
+    },
+    {
+        "name": "Teigland Road",
+        "description": "This is website was created for Teigland Road, a small car dealer that sells cars globally.",
+        "tech": "React.js, Node.js/Express, AWS/S3, MongoDB, Stripe",
+        "image": "images/teigland.png",
+        "video":"",
+        "link": "https://affecta-tech.github.io/car-selling-site/#/"
         ,"class":"live"
     },
     {
@@ -36,6 +67,7 @@
         "description": "This is a custom template that had music bands, artists, and producers in mind. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/band-temp.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-band/"
         ,"class":"template"
     },
@@ -45,6 +77,7 @@
         "description": "This is a custom template for restaurants who want more of a simple look yet can display their main items in forefront of the page. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/restuarant-temp.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-temp-restaurants/"
         ,"class":"template"
     },
@@ -53,6 +86,7 @@
         "description": "This is a custom template for small to medium size businesses and startups. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/business-temp.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-architects/"
         ,"class":"template"
     },
@@ -61,6 +95,7 @@
         "description": "This is a custom template for photographers, videographers or anyone looking to display artwork. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/photographer-temp.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-photographer/"
         ,"class":"template"
     },
@@ -69,6 +104,7 @@
         "description": "This is a custom template for any type of individual writer, journalist or blogger looking for a clean and sleek look. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/blogger-temp.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-blogger/"
         ,"class":"template"
     },
@@ -77,6 +113,7 @@
         "description": "This is a custom template for food shop, restaurants, food enthusiasts, foodies, food bloggers or anything along those lines. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/food-temp.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-restaurant-2/"
         ,"class":"template"
     },
@@ -85,6 +122,7 @@
         "description": "This is a custom template for any type of writer or blogger that wants more images and information on the front page. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/bloggin-temp.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-blogging/"
         ,"class":"template"
     },
@@ -93,6 +131,7 @@
         "description": "This is a custom template for mostly cafes or coffee shops looking for simplicity. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/cafe-temp.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-cafe/"
         ,"class":"template"
     },
@@ -101,6 +140,7 @@
         "description": "This is a custom template for anyone wanting a quick look at a shopping page template for their main site. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/shopping-page-temp.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-shopping-page/"
         ,"class":"template"
     },
@@ -109,6 +149,7 @@
         "description": "This is a custom template for any working professionals looking to up their game and obtain their dream job. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/portfolio-temp.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-portfolio/"
         ,"class":"template"
     },
@@ -117,6 +158,7 @@
         "description": "This is a custom template that uses React.js and Node.js/Express to give the viewers a smooth transitional website with clean styling. ",
         "tech": "React.js, Node.js/Express",
         "image": "images/port-img.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/Final-Portfolio/"
         ,"class":"template"
     },
@@ -125,6 +167,7 @@
         "description": "This is a custom template for couples looking to display photos, details and/or collect reservations for their wedding. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/wedding.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-weddings/"
         ,"class":"template"
     },
@@ -133,6 +176,7 @@
         "description": "This is a custom template for photographers or artists. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/port1.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-photography/"
         ,"class":"template"
     },
@@ -141,6 +185,7 @@
         "description": "This is a custom template for photographers or artists. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/photolio1.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-photolio/"
         ,"class":"template"
     },
@@ -149,6 +194,7 @@
         "description": "This is a custom template for startups or small to medium size businesses. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/startup1.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-startup/"
         ,"class":"template"
     },
@@ -157,6 +203,7 @@
         "description": "This is a custom template for startups or small to medium size businesses. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/startup2.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-startup-2/"
         ,"class":"template"
     },
@@ -165,6 +212,7 @@
         "description": "This is a custom template for any type of designer. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/interior-design.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-interior-designer/"
         ,"class":"template"
     },
@@ -173,6 +221,7 @@
         "description": "This is a custom template for restaurants or food shops. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/bakery.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-restaurant/"
         ,"class":"template"
     },
@@ -181,6 +230,7 @@
         "description": "This is a custom template for restaurants or food shops. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/pizza.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-restaurant-3/"
         ,"class":"template"
     },
@@ -189,6 +239,7 @@
         "description": "This is a custom template for displaying artwork or photography. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/portfolio2.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-photography-2/"
         ,"class":"template"
     },
@@ -197,6 +248,7 @@
         "description": "This is a custom template for displaying artwork or photography. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/portfolio3.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-portfolio-3/"
         ,"class":"template"
     },
@@ -205,6 +257,7 @@
         "description": "This is a custom template for displaying artwork or photography. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/portfolio5.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-portfolio-2/"
         ,"class":"template"
     },
@@ -213,6 +266,7 @@
         "description": "This is a custom template for photographers or artists. This was created using HTML, CSS, Javascript",
         "tech": "HTML, CSS, Javascript",
         "image": "images/portfolio4.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/website-template-photography-3/"
         ,"class":"template"
     },
@@ -221,6 +275,7 @@
         "description": "I personally created this program for Vituity Practice Management to speed up the process of entering patient information and scheduling anesthesiologist's to specific hospitals and patients. The average time to enter a day's worth of patients and assign doctors to them is roughly 4 hours. With this program, I have reduced the time for scheduling anesthesiologists and entering patient information to 1 hour.",
         "tech": "Python, tkinter, XlsxWriter, xlrd",
         "image": "images/py-img.png",
+        "video":"",
         "link": "Extra_File.exe"
         ,"class":"python"
 	},
@@ -229,6 +284,7 @@
         "description": "This application searches through a complete database of all the Belgian beers in the world. You will be able look up any beer by the specific type of beer, by specific beer name, and by the brewery that sells it. You will also be able filter the database by alcohol content percentage by using the slide bar at the top of the page.",
         "tech": "React.js, Node.js/Express, PostgreSQL",
         "image": "images/beer-app-main.png",
+        "video":"",
         "link": "https://lit-spire-67447.herokuapp.com/"
         ,"class":"live"
     },
@@ -237,6 +293,7 @@
         "description": "Do you love Game of Thrones? Do you like to brag to all your friends about all the random facts you know about the show? Take this interactive Game of Thrones Trivia Quiz that was built to really put your Game of Thrones knowledge to the test! This app was inspired by my love for Game of Thrones and my love for trivia.",
         "tech": "HTML, CSS, JavaScript and JQuery",
         "image": "images/got-image.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/Game-Of-Thrones-Trivia-App/index.html"
         ,"class":"live"
     },
@@ -245,6 +302,7 @@
         "description": "This application uses Node.js and socket.io to create a real time chat experience that anyone can enjoy. Users can log in with their usernames, which is unique to them and cannot be used by anyone else. There is a Community chat everyone lands into when logged in. Then if anyone is online, they can easily make a private with that person with just a simple click. and for those curious users, you will be able to see everyone online and see when someone leaves the private chat you created.",
         "tech": "React.js, Node.js, Socket.io, CSS/SCSS",
         "image": "images/chat-app-main.png",
+        "video":"",
         "link": "https://afternoon-dawn-11650.herokuapp.com/"
         ,"class":"live"
     },
@@ -253,6 +311,7 @@
         "description": "This application uses Node.js/Express, Socket.io, and MongoDB/Mongoose to create a real time chat experience for all of its users. There is a special login page when you click the delete button. On this page, only an Admin with a specific password will be able to delete all of the current chat messages. When the admin enters the correct password, it will delete all of the messages that are currently in the database, which will reset the group chat's current messages. The next time the user logs in, all of the messages that occurred before deletion will disappear.",
         "tech": "HTML, CSS/Bootstrap, JavaScript, JQuery, Node.js/Express, Socket.io, MongoDB/Mongoose",
         "image": "images/group-chat-img.png",
+        "video":"",
         "link": "https://serene-anchorage-46440.herokuapp.com/"
         ,"class":"live"
     },
@@ -262,6 +321,7 @@
         "description": "This application uses Get and Post requests for two different APIs and displays an analysis based on the keywords from the user’s input. It will display percentages of 6 different emotions and the one emotion that has the highest percentage will be sent to the second API to display images of that emotion the user is feeling.",
         "tech": "HTML, CSS, JavaScript, JQuery",
         "image": "images/emotion-analysis-main.png",
+        "video":"",
         "link": "https://robert-vaccaro.github.io/Emotion-Analysis/"
         ,"class": "live"
     }

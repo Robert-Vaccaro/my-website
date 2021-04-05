@@ -7,17 +7,19 @@ if (mode === "dark"){
     $("#description").css("color","white")
     $("#comp-desc").css("color","white")
     $("#profileColumn p").css("color","white")
-    $("div#columns figure").css("-webkit-box-shadow","0px 1px 28px 0px rgba(253,253,253,1)")
-    $("div#columns figure").css("-moz-box-shadow","0px 1px 28px 0px rgba(253,253,253,1)")
-    $("div#columns figure").css("box-shadow","0px 1px 28px 0px rgba(253,253,253,1)")
+    $("div#columns figure").css("-webkit-box-shadow","0px 1px 9px 0px rgba(253,253,253,1)")
+    $("div#columns figure").css("-moz-box-shadow","0px 1px 9px 0px rgba(253,253,253,1)")
+    $("div#columns figure").css("box-shadow","0px 1px 9px 0px rgba(253,253,253,1)")
     $(".dankicon a:nth-child(2)").css("color","white") 
     $("#portfolioText").css("color","white")
     $("#portfolioTitle").css("color","white")
-    $("#contactButton").css("border","2px solid white").css("color","white")
-    $("#profileImage").css("-webkit-box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
-    $("#profileImage").css("-moz-box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
-    $("#profileImage").css("box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
+    $("#contactButton").css("border","2px solid black").css("color","white")
+    // $("#profileImage").css("-webkit-box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
+    // $("#profileImage").css("-moz-box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
+    // $("#profileImage").css("box-shadow","0px 1px 15px 0px rgba(253,253,253,1)")
     $(".input-labels-mode").css("color","white")
+    $("figure").css("background","black")
+    $("div#columns figure figcaption").css("color","white")
 } else {
 
     $("body").css("background","#f5f6fa")
@@ -25,9 +27,9 @@ if (mode === "dark"){
     $("#description").css("color","black")
     $("#comp-desc").css("color","black")
     $("#profileColumn p").css("color","black")
-    $("div#columns figure").css("-webkit-box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
-    $("div#columns figure").css("-moz-box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
-    $("div#columns figure").css("box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
+    $("div#columns figure").css("-webkit-box-shadow","0px 1px 9px -1px rgba(0,0,0,0.43)")
+    $("div#columns figure").css("-moz-box-shadow","0px 1px 9px -1px rgba(0,0,0,0.43)")
+    $("div#columns figure").css("box-shadow","0px 1px 9px -1px rgba(0,0,0,0.43)")
     $(".dankicon a:nth-child(2)").css("color","black")
     $("#portfolioText").css("color","black")
     $("#portfolioTitle").css("color","black")
@@ -36,6 +38,8 @@ if (mode === "dark"){
     $("#profileImage").css("-moz-box-shadow","0px 1px 28px 0px rgba(0,0,0,0.62)")
     $("#profileImage").css("box-shadow","0px 1px 18px -1px rgba(0,0,0,0.62)")
     $(".input-labels-mode").css("color","black")
+    $("figure").css("background","white")
+    $("div#columns figure figcaption").css("color","black")
 }
 }
 $(document).ready(function() {
@@ -113,17 +117,34 @@ workRequest.onreadystatechange = function () {
         if (workRequest.status === 200 || workRequest.status == 0) {
             var html = "";
             JSON.parse(workRequest.responseText).forEach(function (work) {
-                html += `<figure class="${work.class}">
-                <img src=${work.image}></img>
-                <figcaption class="port-title">${work.name}</figcaption>
-                <figcaption>${work.description}</figcaption>
-                <br>
-                <figcaption><b>Technologies</b>: ${work.tech}</figcaption>
-                <br>
-                <div class="visit-link">
-                <a class="box" href="${work.link}" target="_blank"><button class="btn-blue">Visit</button></a>
-                </div>
-                </figure>`;
+                if (work.video === ""){
+                    html += `<figure class="${work.class}">
+                    <img src=${work.image}></img>
+                    <figcaption class="port-title">${work.name}</figcaption>
+                    <figcaption>${work.description}</figcaption>
+                    <br>
+                    <figcaption><b>Technologies</b>: ${work.tech}</figcaption>
+                    <br>
+                    <div class="visit-link">
+                    <a class="box" href="${work.link}" target="_blank"><button class="btn-blue">Visit</button></a>
+                    </div>
+                    </figure>`;
+                } else{
+                    html += `<figure class="${work.class}">
+                    <video width="320" height="240" controls>
+                    <source src="${work.video}" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                    <figcaption class="port-title">${work.name}</figcaption>
+                    <figcaption>${work.description}</figcaption>
+                    <br>
+                    <figcaption><b>Technologies</b>: ${work.tech}</figcaption>
+                    <br>
+                    <div class="visit-link">
+                    </div>
+                    </figure>`;
+                }
+
             });
             work.innerHTML = html;
         }
