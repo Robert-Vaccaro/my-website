@@ -117,7 +117,7 @@ workRequest.onreadystatechange = function () {
         if (workRequest.status === 200 || workRequest.status == 0) {
             var html = "";
             JSON.parse(workRequest.responseText).forEach(function (work) {
-                if (work.video === ""){
+                if (work.video === "" && work.link !== ""){
                     html += `<figure class="${work.class}">
                     <img src=${work.image}></img>
                     <figcaption class="port-title">${work.name}</figcaption>
@@ -129,7 +129,20 @@ workRequest.onreadystatechange = function () {
                     <a class="box" href="${work.link}" target="_blank"><button class="btn-blue">Visit</button></a>
                     </div>
                     </figure>`;
-                } else{
+                } 
+                else if (work.link === ""){
+                    html += `<figure class="${work.class}">
+                    <img src=${work.image}></img>
+                    <figcaption class="port-title">${work.name}</figcaption>
+                    <figcaption>${work.description}</figcaption>
+                    <br>
+                    <figcaption><b>Technologies</b>: ${work.tech}</figcaption>
+                    <br>
+                    <div class="visit-link">
+                    </div>
+                    </figure>`;
+                }
+                else{
                     html += `<figure class="${work.class}">
                     <video width="320" height="240" controls>
                     <source src="${work.video}" type="video/mp4">

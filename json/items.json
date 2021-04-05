@@ -3,7 +3,7 @@
         "name": "MemeStock",
         "description": "Welcome to your meme stockpile! If you want to compete for the greatest meme or just want to take a look at a large gallery of memes, then this is the app for you. The more likes you get, the more experience you earn, which will move you up in the MemeStock Rankings. Show off your memes on MemeStock today!",
         "tech": "Swift, SDWebImage, Alamofire, JGProgressHUD, Node/Express, s3, MongoDB/Mongoose",
-        "image": "images/ios-images/memestock-iphone.png",
+        "image": "images/ios-images/memestock.png",
         "video":"",
         "link": "https://apps.apple.com/us/app/memestock/id1534101069"
         ,"class": "ios"
@@ -24,6 +24,33 @@
         "image": "images/ios-images/Gossa.png",
         "video":"",
         "link": "https://apps.apple.com/us/app/id1523240373#?platform=iphone"
+        ,"class": "ios"
+    },
+    {
+        "name": "Teigland Road",
+        "description": "Teigland Road is a small car company that sells car globally.",
+        "tech": "Swift, Alamofire, SDWebImage, Firebase Core, Firebase Auth, Firebase Database, Firebase Analytics, Firebase Messaging, Firebase Crashlytics, JGProgressHUD, Node/Express, s3",
+        "image": "images/ios-images/teigland.png",
+        "video":"",
+        "link": "https://apps.apple.com/us/app/teigland-road/id1560742380#?platform=iphone"
+        ,"class": "ios"
+    },
+    {
+        "name": "Parma Deli",
+        "description": "Parma Deli is a delicatessen that is based out of Concord, California. This app includes a community chat feature with augmented reality games.",
+        "tech": "Swift, ARKit, Alamofire, SDWebImage, Firebase Core, Firebase Auth, Firebase Database, Firebase Analytics, Firebase Messaging, Firebase Crashlytics, JGProgressHUD, Node/Express, s3",
+        "image": "images/ios-images/parma.png",
+        "video":"",
+        "link": ""
+        ,"class": "ios"
+    },
+    {
+        "name": "Mappel",
+        "description": "This is a map based game between two players who have to guess the mystery location based off user description.",
+        "tech": "Swift, Alamofire, JGProgressHUD, Node/Express, s3",
+        "image": "images/ios-images/Mappel.png",
+        "video":"",
+        "link": ""
         ,"class": "ios"
     },
     {
