@@ -839,7 +839,7 @@ button {
     position: relative;
     width: 80%;
     max-width: 920px;
-    margin: 100px auto;
+    margin: 10px auto;
     animation-name: modalbox;
     animation-duration: .4s;
     animation-timing-function: cubic-bezier(0,0,.3,1.6);
@@ -858,6 +858,7 @@ button {
     border-bottom-right-radius: 7px;
     background: #ECEFF1;
     padding: 60px 40px;
+    height: 85vh;
   }
   
   /* Close.main-bu */
