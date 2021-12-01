@@ -9,6 +9,34 @@
         ,"class": "ios"
     },
     {
+        "name": "Hitch2049",
+        "description": "This is the US version of the app that created for the company, Intelligent Racing.",
+        "tech": "Swift, SDWebImage, Alamofire, WebSockets, JGProgressHUD, Node/Express, s3, MongoDB/Mongoose",
+        "image": "images/ios-images/hitch-us.png",
+        "video":"",
+        "link": "https://apps.apple.com/us/app/hitch2049/id1591469369"
+        ,"class": "ios"
+        
+    },
+    {
+        "name": "喜区2049",
+        "description": "This is the Chinese version of the app that created for the company, Intelligent Racing.",
+        "tech": "Swift, SDWebImage, Alamofire, WebSockets, JGProgressHUD, Node/Express, KingSoft, MongoDB/Mongoose",
+        "image": "images/ios-images/hitch-cn.png",
+        "video":"",
+        "link": "https://apps.apple.com/cn/app/%E5%96%9C%E5%8C%BA2049/id1557541628"
+        ,"class": "ios"
+    },
+    {
+        "name": "Voiceo",
+        "description": "Voiceo is the fun way to share voice notes with your friends and compete for the best voice notes!",
+        "tech": "Swift, SDWebImage, Alamofire, JGProgressHUD, Node/Express, s3, MongoDB/Mongoose",
+        "image": "images/ios-images/voiceo.png",
+        "video":"",
+        "link": ""
+        ,"class": "ios"
+    },
+    {
         "name": "Entello",
         "description": "A realtime trivia multiplayer game! Just type in your favorite username, select a photo, and send the game code to your friends. You can also message your friends in realtime while the game is happening. Start working your brain muscles on Entello!",
         "tech": "Swift, Alamofire, SDWebImage, Google-Mobile-Ads-SDK, Firebase Core, Firebase Auth, Firebase Database, Firebase Analytics, Firebase Messaging, Firebase Crashlytics, ImagePicker, ChameleonFramework, JGProgressHUD, Node/Express, s3, MongoDB/Mongoose",

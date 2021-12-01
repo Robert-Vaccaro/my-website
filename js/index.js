@@ -121,9 +121,10 @@ workRequest.onreadystatechange = function () {
                     html += `<figure class="${work.class}">
                     <img src=${work.image}></img>
                     <figcaption class="port-title">${work.name}</figcaption>
-                    <figcaption>${work.description}</figcaption>
+                    <figcaption class="port-descr">${work.description}</figcaption>
                     <br>
-                    <figcaption><b>Technologies</b>: ${work.tech}</figcaption>
+                    <figcaption class="tech-title"><b>Technologies</b></figcaption>
+                    <figcaption class="tech-list">${work.tech}</figcaption>
                     <br>
                     <div class="visit-link">
                     <a class="box" href="${work.link}" target="_blank"><button class="btn-blue">Visit</button></a>
@@ -134,9 +135,10 @@ workRequest.onreadystatechange = function () {
                     html += `<figure class="${work.class}">
                     <img src=${work.image}></img>
                     <figcaption class="port-title">${work.name}</figcaption>
-                    <figcaption>${work.description}</figcaption>
+                    <figcaption class="port-descr">${work.description}</figcaption>
                     <br>
-                    <figcaption><b>Technologies</b>: ${work.tech}</figcaption>
+                    <figcaption class="tech-title"><b>Technologies</b></figcaption>
+                    <figcaption class="tech-list">${work.tech}</figcaption>
                     <br>
                     <div class="visit-link">
                     </div>
@@ -149,9 +151,10 @@ workRequest.onreadystatechange = function () {
                     Your browser does not support the video tag.
                     </video>
                     <figcaption class="port-title">${work.name}</figcaption>
-                    <figcaption>${work.description}</figcaption>
+                    <figcaption class="port-descr">${work.description}</figcaption>
                     <br>
-                    <figcaption><b>Technologies</b>: ${work.tech}</figcaption>
+                    <figcaption class="tech-title"><b>Technologies</b></figcaption>
+                    <figcaption class="tech-list">${work.tech}</figcaption>
                     <br>
                     <div class="visit-link">
                     </div>

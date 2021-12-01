@@ -944,9 +944,6 @@ button {
     opacity: 1;
   }
 
-.port-title{
-  font-size:32px; 
-}
 
 .box{
   margin : 0 auto;
@@ -1006,7 +1003,6 @@ div#columns figure {
 }
 div#columns figure img {
     width: 100%; height: auto;
-    border-bottom: 1px solid #ccc;
     padding-bottom: 15px;
     margin-bottom: 5px;
 }
@@ -1033,7 +1029,21 @@ div#columns small a {
   text-decoration: none; 
   transition: .4s color;
 }
-
+.tech-title{
+  font-size: 19px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+.tech-list{
+  padding-top: 5px;
+}
+.port-title{
+  border-bottom: 1px solid #ccc;
+  font-size:32px; 
+}
+.port-descr{
+  padding-top: 5px;
+}
 .visit-link{
   text-align: center;
 }
